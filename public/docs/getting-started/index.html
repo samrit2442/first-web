@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html
+  lang="en-AU"
+  
+><head>
+  <meta charset="utf-8" />
+  
+    <meta http-equiv="content-language" content="en-AU" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  
+  <title>Getting Started &middot; Congo</title>
+    <meta name="title" content="Getting Started &middot; Congo" />
+  
+  <meta name="description" content="All the front matter variables available in Congo." />
+  
+  
+  
+  <link rel="canonical" href="/docs/getting-started/" />
+  
+  
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="/css/schemes/congo.min.b48d6ba061dc77186a2524fb8aac5ac3823b2679a9299ca60325abbccc9c1764c884715f0ba24b4e2776cb3814df4af1f4c854b87207cd5d4c7a254da9b55751.css"
+    integrity="sha512-tI1roGHcdxhqJST7iqxaw4I7JnmpKZymAyWrvMycF2TIhHFfC6JLTid2yzgU30rx9MhUuHIHzV1MeiVNqbVXUQ=="
+  />
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="/css/compiled/main.min.0616cd1037a5b5a117adb2a5811247073e87aa85bf90466b8597b7f950fea39c6daa6d034e80941fd15e7bd8c1f84e7bd1e2775064f5dfb08fd79622ef2deba3.css"
+    integrity="sha512-BhbNEDeltaEXrbKlgRJHBz6HqoW/kEZrhZe3&#43;VD&#43;o5xtqm0DToCUH9Fee9jB&#43;E570eJ3UGT137CP15Yi7y3row=="
+  />
+  
+  
+  
+    <script>
+      function loadPreferredAppearance() {
+        if (localStorage.preferredAppearance === "dark" || (!("preferredAppearance" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+          document.documentElement.classList.add("dark");
+        } else {
+          document.documentElement.classList.remove("dark");
+        }
+      }
+      function setPreferredAppearance(scheme) {
+        if (scheme == "default") {
+          localStorage.removeItem("preferredAppearance");
+        } else {
+          localStorage.preferredAppearance = scheme;
+        }
+        loadPreferredAppearance();
+      }
+      loadPreferredAppearance();
+      window.matchMedia("(prefers-color-scheme: dark)").addListener(loadPreferredAppearance);
+    </script>
+  
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:title" content="Getting Started" />
+<meta property="og:description" content="All the front matter variables available in Congo." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/docs/getting-started/" /><meta property="article:section" content="docs" />
+<meta property="article:published_time" content="2020-08-15T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-08-15T00:00:00+00:00" />
+
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Getting Started"/>
+<meta name="twitter:description" content="All the front matter variables available in Congo."/>
+
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "articleSection": "Documentation",
+    "name": "Getting Started",
+    "headline": "Getting Started",
+    "description": "All the front matter variables available in Congo.",
+    "inLanguage": "en-AU",
+    "author" : {
+      "@type": "Person",
+      "name": "Congo"
+    },
+    "creator" : {
+      "@type": "Person",
+      "name": "Congo"
+    },
+    "copyrightHolder": "Congo",
+    "copyrightYear": "2020",
+    "dateCreated": "2020-08-15T00:00:00\u002b00:00",
+    "datePublished": "2020-08-15T00:00:00\u002b00:00",
+    "dateModified": "2020-08-15T00:00:00\u002b00:00",
+    "url" : "\/docs\/getting-started\/",
+    "keywords": ["installation","docs"],
+    "wordCount": "627"
+  }
+  </script>
+
+
+  
+  
+    <meta name="generator" content="Hugo 0.92.0" />
+  
+  
+  <meta name="author" content="Congo" />
+  
+    
+      <link href="https://twitter.com/" rel="me" />
+    
+      <link href="https://facebook.com/" rel="me" />
+    
+      <link href="https://linkedin.com/" rel="me" />
+    
+      <link href="https://youtube.com/" rel="me" />
+    
+  
+  
+  
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+  
+  
+</head>
+<body
+    class="flex flex-col h-screen px-6 m-auto text-lg leading-7 bg-neutral text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-neutral max-w-7xl"
+  ><header
+  class="flex justify-between py-6 font-semibold sm:items-center sm:py-10 text-neutral-900 dark:text-neutral"
+>
+  
+  <div>
+    
+      <a
+        class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small"
+        rel="me"
+        href="/"
+        >Congo</a
+      >
+  </div>
+  
+  
+    <nav>
+      <ul class="flex flex-col list-none sm:flex-row">
+        
+          <li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+            <a
+              class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small"
+              href="/docs/"
+              title="Documentation"
+              >Docs</a
+            >
+          </li>
+        
+          <li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+            <a
+              class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small"
+              href="/samples/"
+              title="Content Samples"
+              >Samples</a
+            >
+          </li>
+        
+          <li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+            <a
+              class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small"
+              href="/users/"
+              title="Users"
+              >Users</a
+            >
+          </li>
+        
+          <li class="mb-1 text-right sm:mb-0 sm:mr-7 sm:last:mr-0">
+            <a
+              class="hover:underline hover:underline-primary-500 hover:underline-thickness-bold hover:underline-offset-small"
+              href="https://github.com/jpanther/congo"
+              title=""
+              >GitHub</a
+            >
+          </li>
+        
+      </ul>
+    </nav>
+  
+</header>
+<main class="flex-grow">
+  <article class="max-w-prose">
+    <header>
+      
+        <ol class="text-sm text-neutral-500 dark:text-neutral-400">
+  
+  
+    
+  
+    
+  
+  <li class="inline hidden">
+    <a
+      class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600"
+      href="/"
+      >Welcome to Congo! :tada:</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline ">
+    <a
+      class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600"
+      href="/docs/"
+      >Documentation</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline hidden">
+    <a
+      class="hover:underline hover:underline-neutral-300 dark:underline-neutral-600"
+      href="/docs/getting-started/"
+      >Getting Started</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+</ol>
+
+
+      
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        Getting Started
+      </h1>
+      <div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400">
+        
+
+
+
+
+
+  
+  
+
+
+
+  
+
+  
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+  <div class="flex flex-row items-center">
+    
+    
+      <span title="Reading time">3 mins</span><span class="px-2 text-primary-500">&middot;</span>
+
+
+  
+  
+
+<span class="mb-[2px]">
+  <a
+    href="https://github.com/jpanther/congo/tree/dev/exampleSite/content/docs/getting-started.md"
+    class="text-lg hover:text-primary-500"
+    rel="noopener noreferrer"
+    target="_blank"
+    title="Edit content"
+    >
+
+  <span class="relative inline-block align-text-bottom icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="edit" class="svg-inline--fa fa-edit fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M402.3 344.9l32-32c5-5 13.7-1.5 13.7 5.7V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h273.5c7.1 0 10.7 8.6 5.7 13.7l-32 32c-1.5 1.5-3.5 2.3-5.7 2.3H48v352h352V350.5c0-2.1.8-4.1 2.3-5.6zm156.6-201.8L296.3 405.7l-90.4 10c-26.2 2.9-48.5-19.2-45.6-45.6l10-90.4L432.9 17.1c22.9-22.9 59.9-22.9 82.7 0l43.2 43.2c22.9 22.9 22.9 60 .1 82.8zM460.1 174L402 115.9 216.2 301.8l-7.3 65.3 65.3-7.3L460.1 174zm64.8-79.7l-43.2-43.2c-4.1-4.1-10.8-4.1-14.8 0L436 82l58.1 58.1 30.9-30.9c4-4.2 4-10.8-.1-14.9z"></path></svg>
+
+  </span>
+
+</a
+  >
+</span>
+    
+
+    
+    
+  </div>
+
+
+      </div>
+    </header>
+    <section class="prose dark:prose-light">
+      <div class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900">
+  <span class="pr-3 text-primary-400">
+    
+
+  <span class="relative inline-block align-text-bottom icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="exclamation-triangle" class="svg-inline--fa fa-exclamation-triangle fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z"></path></svg>
+  </span>
+
+
+  </span>
+  <span class="no-prose dark:text-neutral-300">This section assumes you have already <a href="/docs/installation/">installed the Congo theme</a>.</span>
+</div>
+
+<p>The config files that ship with Congo contain all of the possible settings that the theme recognises. By default, many of these are commented out but you can simply uncomment them to activate or change a specific feature.</p>
+<p>There are a few things you should set in <code>config.toml</code> for a new installation:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="c"># config/_default/config.toml</span>
+
+<span class="nx">baseURL</span> <span class="p">=</span> <span class="s2">&#34;https://your_domain.com&#34;</span>
+<span class="nx">languageCode</span> <span class="p">=</span> <span class="s2">&#34;en-AU&#34;</span>
+<span class="nx">title</span> <span class="p">=</span> <span class="s2">&#34;My awesome website&#34;</span>
+
+<span class="p">[</span><span class="nx">author</span><span class="p">]</span>
+<span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;My name&#34;</span>
+<span class="nx">image</span> <span class="p">=</span> <span class="s2">&#34;img/author.jpg&#34;</span>
+<span class="nx">bio</span> <span class="p">=</span> <span class="s2">&#34;A little bit about me&#34;</span>
+<span class="nx">links</span> <span class="p">=</span> <span class="p">[</span>
+  <span class="p">{</span> <span class="nx">twitter</span> <span class="p">=</span> <span class="s2">&#34;https://twitter.com/username&#34;</span> <span class="p">}</span>
+<span class="p">]</span>
+</code></pre></div><p>The <code>[author]</code> configuration determines how the author information is displayed on the website. The image should be placed in the site&rsquo;s <code>static/</code> folder. Links will be displayed in the order they are listed.</p>
+<p>Further detail about these configuration options is covered in the <a href="/docs/configuration/">Configuration</a> section.</p>
+<h2 id="colour-schemes">Colour schemes <a class="heading-anchor" href="#colour-schemes" aria-label="Anchor">#</a></h2>
+<p>Congo ships with a number of colour schemes out of the box. To change the scheme, simply set the <code>colorScheme</code> theme parameter. Valid options are <code>congo</code> (default), <code>avocado</code>, <code>fire</code>, <code>ocean</code> and <code>slate</code>.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="c"># config/_default/params.toml</span>
+
+<span class="nx">colorScheme</span> <span class="p">=</span> <span class="s2">&#34;congo&#34;</span>
+</code></pre></div><p>Congo defines a three-colour palette that is used throughout the theme. Each main colour contains ten shades which are based upon the colours that are included in <a href="https://tailwindcss.com/docs/customizing-colors#color-palette-reference">Tailwind</a>.</p>
+<h4 id="congo-default">Congo (default) <a class="heading-anchor" href="#congo-default" aria-label="Anchor">#</a></h4>
+<div class="flex justify-between">
+  <span
+    class="w-full py-6 mr-3 rounded-md"
+    style="background-color: #71717a"
+  ></span>
+  <span
+    class="w-full py-6 mr-3 rounded-md"
+    style="background-color: #8b5cf6"
+  ></span>
+  <span
+    class="w-full py-6 mr-3 rounded-md"
+    style="background-color: #d946ef"
+  ></span>
+</div>
+
+<h4 id="avocado">Avocado <a class="heading-anchor" href="#avocado" aria-label="Anchor">#</a></h4>
+<div class="flex justify-between">
+  <span
+    class="w-full py-6 mr-3 rounded-md"
+    style="background-color: #78716c"
+  ></span>
+  <span
+    class="w-full py-6 mr-3 rounded-md"
+    style="background-color: #84cc16"
+  ></span>
+  <span
+    class="w-full py-6 mr-3 rounded-md"
+    style="background-color: #10b981"
+  ></span>
+</div>
+
+<h4 id="fire">Fire <a class="heading-anchor" href="#fire" aria-label="Anchor">#</a></h4>
+<div class="flex justify-between">
+  <span
+    class="w-full py-6 mr-3 rounded-md"
+    style="background-color: #78716c"
+  ></span>
+  <span
+    class="w-full py-6 mr-3 rounded-md"
+    style="background-color: #f97316"
+  ></span>
+  <span
+    class="w-full py-6 mr-3 rounded-md"
+    style="background-color: #f43f5e"
+  ></span>
+</div>
+
+<h4 id="ocean">Ocean <a class="heading-anchor" href="#ocean" aria-label="Anchor">#</a></h4>
+<div class="flex justify-between">
+  <span
+    class="w-full py-6 mr-3 rounded-md"
+    style="background-color: #64748b"
+  ></span>
+  <span
+    class="w-full py-6 mr-3 rounded-md"
+    style="background-color: #3b82f6"
+  ></span>
+  <span
+    class="w-full py-6 mr-3 rounded-md"
+    style="background-color: #06b6d4"
+  ></span>
+</div>
+
+<h4 id="slate">Slate <a class="heading-anchor" href="#slate" aria-label="Anchor">#</a></h4>
+<div class="flex justify-between">
+  <span
+    class="w-full py-6 mr-3 rounded-md"
+    style="background-color: #6B7280"
+  ></span>
+  <span
+    class="w-full py-6 mr-3 rounded-md"
+    style="background-color: #6B7280"
+  ></span>
+  <span
+    class="w-full py-6 mr-3 rounded-md"
+    style="background-color: #6B7280"
+  ></span>
+</div>
+
+<p>Although these are the default schemes, you can also create your own. Refer to the <a href="/docs/advanced-customisation/#colour-schemes">Advanced Customisation</a> section for details.</p>
+<h2 id="organising-content">Organising content <a class="heading-anchor" href="#organising-content" aria-label="Anchor">#</a></h2>
+<p>By default, Congo doesn&rsquo;t force you to use a particular content type. In doing so you are free to define your content as you wish. You might prefer <em>pages</em> for a static site, <em>posts</em> for a blog, or <em>projects</em> for a portfolio.</p>
+<p>The same logic applies to taxonomies. Some people prefer to use <em>tags</em> and <em>categories</em>, others prefer to use <em>topics</em>.</p>
+<p>Hugo defaults to using posts, tags and categories out of the box and this will work fine if that&rsquo;s what you want. If you wish to customise this, however, you can do so by creating the following files:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="c"># config/_default/taxonomies.toml</span>
+
+<span class="nx">topic</span> <span class="p">=</span> <span class="s2">&#34;topics&#34;</span>
+</code></pre></div><p>This will replace the default <em>tags</em> and <em>categories</em> with <em>topics</em>. Refer to the <a href="https://gohugo.io/content-management/taxonomies/">Hugo Taxonomy docs</a> for more information on naming taxonomies.</p>
+<p>When you create a new taxonomy, you will need to adjust the navigation links on the website to point to the correct sections.</p>
+<h2 id="menus">Menus <a class="heading-anchor" href="#menus" aria-label="Anchor">#</a></h2>
+<p>Congo has two menus that can be customised to suit the content and layout of your site. The <code>main</code> menu appears in the site header and the <code>footer</code> menu appears at the bottom of the page just above the copyright notice.</p>
+<p>Both menus are configured in the <code>menus.toml</code> file.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="c"># config/_default/menus.toml</span>
+
+<span class="p">[[</span><span class="nx">main</span><span class="p">]]</span>
+  <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;Blog&#34;</span>
+  <span class="nx">pageRef</span> <span class="p">=</span> <span class="s2">&#34;posts&#34;</span>
+  <span class="nx">weight</span> <span class="p">=</span> <span class="mi">10</span>
+
+<span class="p">[[</span><span class="nx">main</span><span class="p">]]</span>
+  <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;Topics&#34;</span>
+  <span class="nx">pageRef</span> <span class="p">=</span> <span class="s2">&#34;topics&#34;</span>
+  <span class="nx">weight</span> <span class="p">=</span> <span class="mi">20</span>
+
+<span class="p">[[</span><span class="nx">footer</span><span class="p">]]</span>
+  <span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;Privacy&#34;</span>
+  <span class="nx">url</span> <span class="p">=</span> <span class="s2">&#34;https://external-link&#34;</span>
+</code></pre></div><p>The <code>name</code> parameter specifies the text that is used in the menu link. You can also optionally provide a <code>title</code> which fills the HTML title attribute for the link.</p>
+<p>The <code>pageRef</code> parameter allows you to easily reference Hugo content pages and taxonomies. It is the quickest way to configure the menu as you can simply refer to any Hugo content item and it will automatically build the correct link. To link to external URLs, the <code>url</code> parameter can be used.</p>
+<p>Menu links will be sorted from lowest to highest <code>weight</code>, and then alphabetically by <code>name</code>.</p>
+<p>Both menus are completely optional and can be commented out if not required. Use the template provided in the file as a guide.</p>
+<h2 id="detailed-configuration">Detailed configuration <a class="heading-anchor" href="#detailed-configuration" aria-label="Anchor">#</a></h2>
+<p>The steps above are the bare minimum configuration. If you now run <code>hugo server</code> you will be presented with a blank Congo website. Detailed configuration is covered in the <a href="/docs/configuration/">Configuration</a> section.</p>
+
+    </section>
+    <footer class="pt-8">
+      
+
+      
+
+      
+  
+    <div class="pt-8 article-pagination">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+            <a class="flex" href="/docs/installation/">
+              <span class="mr-3 article-pagination-direction">&larr;</span>
+              <span class="flex flex-col">
+                <span class="article-pagination-title mt-[0.1rem] leading-6"
+                  >Installation</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+            <a class="flex text-right" href="/docs/configuration/">
+              <span class="flex flex-col">
+                <span class="article-pagination-title mt-[0.1rem] leading-6"
+                  >Configuration</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                </span>
+              </span>
+              <span class="ml-3 article-pagination-direction">&rarr;</span>
+            </a>
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+    </footer>
+    
+  </article>
+</main><footer class="py-10">
+  
+  
+  <div class="flex justify-between">
+    <div>
+      
+      <p class="text-sm text-neutral-500 dark:text-neutral-400">
+          &copy;
+          2022
+          Congo
+      </p>
+      
+      
+        <p class="text-xs text-neutral-400 dark:text-neutral-600">
+          
+          
+          Powered by <a class="hover:underline hover:underline-primary-400 hover:text-primary-500"
+            href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:underline-primary-400 hover:text-primary-500" href="https://git.io/hugo-congo" target="_blank" rel="noopener noreferrer">Congo</a>
+        </p>
+      
+    </div>
+    
+    
+  </div>
+  
+  
+</footer>
+</body>
+</html>
