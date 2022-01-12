@@ -13,7 +13,7 @@ author:
     - facebook: https://facebook.com/
     - linkedin: https://linkedin.com/
     - youtube: https://youtube.com/
-  name: Congo
+  name: The 3 S
 taxonomies:
   tag: tags
 params:
@@ -23,7 +23,7 @@ params:
     showBreadcrumbs: yes
     showEdit: yes
   homepage:
-    layout: custom
+    layout:
     mainSections: samples
     showRecent: yes
   list:
