@@ -17,10 +17,10 @@ taxonomies:
   tag: tags
 params:
   article:
-    editAppendPath: yes
+    editAppendPath: no
     editURL: https://github.com/jpanther/congo/tree/dev/exampleSite/content/
-    showBreadcrumbs: yes
-    showEdit: yes
+    showBreadcrumbs: no
+    showEdit: no
   homepage:
     layout: custom
     mainSections: samples
@@ -30,17 +30,17 @@ params:
     showBreadcrumbs: yes
 menu:
   main:
-    - name: Docs
-      pageRef: docs
+    - name: Statistics
+      pageRef: stat
       weight: 10
-    - name: Samples
-      pageRef: samples
+    - name: Space
+      pageRef: space
       weight: 20
-    - name: Users
-      pageRef: users
+    - name: Sports
+      pageRef: sports
       weight: 30
     - name: GitHub
-      url: https://github.com/jpanther/congo
+      url: https://github.com/samrit2442
       weight: 40
 markup:
   goldmark:
