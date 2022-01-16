@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>shortcodes on Congo</title>
+    <title>shortcodes on Samrit Pramanik</title>
     <link>/tags/shortcodes/</link>
-    <description>Recent content in shortcodes on Congo</description>
+    <description>Recent content in shortcodes on Samrit Pramanik</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-AU</language>
+    <language>en-US</language>
     <lastBuildDate>Fri, 14 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="/tags/shortcodes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Icons</title>
@@ -13,7 +13,8 @@
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>/samples/icons/</guid>
-      <description>Congo has built-in support for a number of FontAwesome 5 icons.</description>
+      <description>Congo has built-in support for a number of FontAwesome 5 icons. These can be included in your website through either the icon partial or icon shortcode.
+Additionally, custom icons are also fully supported.</description>
     </item>
     
     <item>
@@ -22,7 +23,8 @@
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>/docs/shortcodes/</guid>
-      <description>In addition to all the default Hugo shortcodes, Congo adds a few extras for additional functionality.</description>
+      <description>In addition to all the default Hugo shortcodes, Congo adds a few extras for additional functionality.
+Alert # alert outputs its contents as a stylised message box within your article. It&amp;rsquo;s useful for drawing attention to important information that you don&amp;rsquo;t want the reader to miss.</description>
     </item>
     
     <item>

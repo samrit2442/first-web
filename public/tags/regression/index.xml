@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>regression on Congo</title>
+    <title>regression on Samrit Pramanik</title>
     <link>/tags/regression/</link>
-    <description>Recent content in regression on Congo</description>
+    <description>Recent content in regression on Samrit Pramanik</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-AU</language>
+    <language>en-US</language>
     <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="/tags/regression/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello R Markdown</title>
@@ -13,7 +13,7 @@
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
       
       <guid>/post/2020-12-01-r-rmarkdown/</guid>
-      <description>R MarkdownThis is an R Markdown document.</description>
+      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.</description>
     </item>
     
   </channel>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Welcome to Congo! :tada: on Congo</title>
+    <title>Welcome to Congo! :tada: on Samrit Pramanik</title>
     <link>/</link>
-    <description>Recent content in Welcome to Congo! :tada: on Congo</description>
+    <description>Recent content in Welcome to Congo! :tada: on Samrit Pramanik</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-AU</language>
+    <language>en-US</language>
     <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello R Markdown</title>
@@ -13,7 +13,7 @@
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
       
       <guid>/post/2020-12-01-r-rmarkdown/</guid>
-      <description>R MarkdownThis is an R Markdown document.</description>
+      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.</description>
     </item>
     
     <item>
@@ -22,7 +22,9 @@
       <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>/docs/installation/</guid>
-      <description>Simply follow the standard Hugo Quick Start procedure to get up and running quickly.</description>
+      <description>Simply follow the standard Hugo Quick Start procedure to get up and running quickly.
+Detailed installation instructions can be found below. Instructions for updating the theme are also available.
+Installation # These instructions will get you up and running using Hugo and Congo from a completely blank state.</description>
     </item>
     
     <item>
@@ -31,7 +33,7 @@
       <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>/docs/getting-started/</guid>
-      <description>This section assumes you have already installed the Congo theme.</description>
+      <description>This section assumes you have already installed the Congo theme.  The config files that ship with Congo contain all of the possible settings that the theme recognises.</description>
     </item>
     
     <item>
@@ -40,7 +42,8 @@
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>/docs/configuration/</guid>
-      <description>Congo is a highly customisable theme and uses some of the latest Hugo features to simplify how it is configured.</description>
+      <description>Congo is a highly customisable theme and uses some of the latest Hugo features to simplify how it is configured.
+The theme ships with a default configuration that gets you up and running with a basic blog or static website.</description>
     </item>
     
     <item>
@@ -49,7 +52,8 @@
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>/samples/icons/</guid>
-      <description>Congo has built-in support for a number of FontAwesome 5 icons.</description>
+      <description>Congo has built-in support for a number of FontAwesome 5 icons. These can be included in your website through either the icon partial or icon shortcode.
+Additionally, custom icons are also fully supported.</description>
     </item>
     
     <item>
@@ -58,7 +62,7 @@
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>/users/</guid>
-      <description>Real websites that are built with Congo.</description>
+      <description>Real websites that are built with Congo.     Website Details     jamespanther.com Personal site - Theme author   zekeriyaay.com Personal cheat sheets site   srisco.</description>
     </item>
     
     <item>
@@ -67,7 +71,7 @@
       <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>/docs/homepage-layout/</guid>
-      <description>Congo provides a fully flexible homepage layout.</description>
+      <description>Congo provides a fully flexible homepage layout. There are two main templates to choose from with additional settings to adjust the design. Alternatively, you can also provide your own template and have complete control over the homepage content.</description>
     </item>
     
     <item>
@@ -76,7 +80,7 @@
       <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>/docs/front-matter/</guid>
-      <description>In addition to the default Hugo front matter parameters, Congo adds a number of additional options to customise the presentation of individual articles.</description>
+      <description>In addition to the default Hugo front matter parameters, Congo adds a number of additional options to customise the presentation of individual articles. All the available theme front matter parameters are listed below.</description>
     </item>
     
     <item>
@@ -85,7 +89,8 @@
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>/docs/shortcodes/</guid>
-      <description>In addition to all the default Hugo shortcodes, Congo adds a few extras for additional functionality.</description>
+      <description>In addition to all the default Hugo shortcodes, Congo adds a few extras for additional functionality.
+Alert # alert outputs its contents as a stylised message box within your article. It&amp;rsquo;s useful for drawing attention to important information that you don&amp;rsquo;t want the reader to miss.</description>
     </item>
     
     <item>
@@ -94,7 +99,7 @@
       <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>/docs/partials/</guid>
-      <description>Analytics # Congo provides built-in support for Fathom Analytics and Google Analytics.</description>
+      <description>Analytics # Congo provides built-in support for Fathom Analytics and Google Analytics. Fathom is a paid alternative to Google Analytics that respects user privacy. If you&amp;rsquo;re interested you can use this affiliate link to receive $10 credit and try the service.</description>
     </item>
     
     <item>
@@ -103,7 +108,7 @@
       <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>/docs/advanced-customisation/</guid>
-      <description>There are many ways you can make advanced changes to Congo.</description>
+      <description>There are many ways you can make advanced changes to Congo. Read below to learn more about what can be customised and the best way of achieving your desired result.</description>
     </item>
     
     <item>
@@ -112,7 +117,8 @@
       <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>/docs/hosting-deployment/</guid>
-      <description>There are many ways to deploy your Hugo website built with Congo.</description>
+      <description>There are many ways to deploy your Hugo website built with Congo. The theme is designed to be flexible in almost any deployment scenario.
+Congo is built using relative URLs throughout the theme.</description>
     </item>
     
     <item>
